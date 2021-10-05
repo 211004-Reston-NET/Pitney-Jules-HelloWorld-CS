@@ -1,4 +1,5 @@
 ﻿using System;
+using HouseFunction;
 // This is a comment
 
 /*
@@ -7,7 +8,7 @@ Will be a comment
 - We use PascelCase for the most part and that means namnig artifacts as EverythingWillBeCapitalized
 - We use CamelCase for naming fields and that emans naming artifacts as onlyOnceYouHaveALowerCaseWordAtTheBeginning
 
-*/ 
+*/
 
 namespace HelloWorld
 {
@@ -24,14 +25,16 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello World!");
 
-            Program.Example(); 
+            Program.Example();
             // Program test = new Program(); //This will instantiate an object. (Only necessary if the method is not static)
-            test.Example()
+
+            House home = new House();
         }
 
-        public static int Example(){
+        public static int Example()
+        {
 
-            return 10; 
+            return 10;
         }
     }
 }
