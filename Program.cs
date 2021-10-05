@@ -28,7 +28,20 @@ namespace HelloWorld
             Program.Example();
             // Program test = new Program(); //This will instantiate an object. (Only necessary if the method is not static)
 
-            House home = new House();
+            House Pitney = new House();
+
+
+            Console.WriteLine(Pitney.MiceName);
+
+            //Class exercise
+            string userTextInput;
+
+            Console.WriteLine("Go ahead and type something!");
+            userTextInput = Console.ReadLine();
+
+            Console.WriteLine("You typed:" + userTextInput);
+            // End of class exercise 
+
         }
 
         public static int Example()

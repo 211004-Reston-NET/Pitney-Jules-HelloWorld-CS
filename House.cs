@@ -12,5 +12,8 @@ namespace HouseFunction
             ghost = "Casper";
             roomCount = 1;
         }
+
+        public string MiceName {get; set;}
+        public string Owner {get; set;}
     }
 }
