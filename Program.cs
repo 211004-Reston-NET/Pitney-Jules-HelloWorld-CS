@@ -44,7 +44,7 @@ namespace HelloWorld
             // End of class exercise 
 
             Collection collectionObj = new Collection();
-            collectionObj.CollectionMain(); 
+            collectionObj.CollectionMain();
 
         }
 

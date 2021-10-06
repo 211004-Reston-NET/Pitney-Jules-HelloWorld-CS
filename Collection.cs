@@ -29,6 +29,15 @@ namespace CollectionFunction
 
             }
 
+            for (int i = 0; i < strings.Count; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine("The variable i currently holds:" + i);
+                    Console.WriteLine(strings[i]);
+                }
+            }
+
         }
 
     }
