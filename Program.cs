@@ -1,5 +1,6 @@
 ﻿using System;
 using HouseFunction;
+using CollectionFunction; 
 // This is a comment
 
 /*
@@ -41,6 +42,8 @@ namespace HelloWorld
 
             Console.WriteLine("You typed:" + userTextInput);
             // End of class exercise 
+
+            Collection collectionObj = new Collection("String"); 
 
         }
 
